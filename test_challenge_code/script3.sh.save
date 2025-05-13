@@ -1,0 +1,51 @@
+
+
+# test MST++
+python3 test.py --data_root ../dataset/  --method mst_plus_plus --pretrained_model_path ./model_zoo/mst_plus_plus.pth --outf ./exp/mst_plus_plus/  --gpu_id 0
+
+# test MST-L
+python3 test.py --data_root ../dataset/  --method mst --pretrained_model_path ./model_zoo/mst.pth --outf ./exp/mst/  --gpu_id 0
+
+# test MIRNet
+python3 test.py --data_root ../dataset/  --method mirnet --pretrained_model_path ./model_zoo/mirnet.pth --outf ./exp/mirnet/  --gpu_id 0
+
+# test HINet
+python3 test.py --data_root ../dataset/  --method hinet --pretrained_model_path ./model_zoo/hinet.pth --outf ./exp/hinet/  --gpu_id 0
+
+# test MPRNet
+python3 test.py --data_root ../dataset/  --method mprnet --pretrained_model_path ./model_zoo/mprnet.pth --outf ./exp/mprnet/  --gpu_id 0
+
+# test Restormer
+python3 test.py --data_root ../dataset/  --method restormer --pretrained_model_path ./model_zoo/restormer.pth --outf ./exp/restormer/  --gpu_id 0
+
+# test EDSR
+python3 test.py --data_root ../dataset/  --method edsr --pretrained_model_path ./model_zoo/edsr.pth --outf ./exp/edsr/  --gpu_id 0
+
+# test HDNet
+python3 test.py --data_root ../dataset/  --method hdnet --pretrained_model_path ./model_zoo/hdnet.pth --outf ./exp/hdnet/  --gpu_id 0
+
+# test HRNet
+python3 test.py --data_root ../dataset/  --method hrnet --pretrained_model_path ./model_zoo/hrnet.pth --outf ./exp/hrnet/  --gpu_id 0
+
+# test HSCNN+
+python3 test.py --data_root ../dataset/  --method hscnn_plus --pretrained_model_path ./model_zoo/hscnn_plus.pth --outf ./exp/hscnn_plus/  --gpu_id 0
+#!/bin/bash
+fuser -v /dev/nvidia* | awk '{print $2}' | xargs -I{} kill -9 {}
+
+# Define the path to the pretrained model files
+pretrained_model_path="/media/ntu/volume1/home/s124md303_06/MST-plus-plus/test_develop_code/model_zoo/model_zoo"
+
+# Check if the pretrained model path exists
+if [ ! -d "$pretrained_model_path" ]; then
+    echo "Error: Pretrained model path does not exist: $pretrained_model_path"
+    exit 1
+fi
+
+# Define the data root path
+data_root="/media/ntu/volume1/home/s124md303_06/MST-plus-plus/dataset/"
+
+# Check if the data root path exists
+if [ ! -d "$data_root" ]; then
+    echo "Error: Data root path does not exist: $data_root"
+    exit 1
+fi

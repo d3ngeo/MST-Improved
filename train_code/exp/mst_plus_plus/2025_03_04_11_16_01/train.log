@@ -1,0 +1,11 @@
+2025-03-04 11:25:18 -  Iter[001000], Epoch[000001], learning rate : 0.000399989, Train Loss: 0.622527659, Test MRAE: inf, Test RMSE: 0.086390607, Test PSNR: 16.312347412 
+2025-03-04 11:34:31 -  Iter[002000], Epoch[000002], learning rate : 0.000399956, Train Loss: 0.564931154, Test MRAE: inf, Test RMSE: 0.073374160, Test PSNR: 16.542161942 
+2025-03-04 11:43:46 -  Iter[003000], Epoch[000003], learning rate : 0.000399902, Train Loss: 0.537663758, Test MRAE: inf, Test RMSE: 0.103175335, Test PSNR: 16.708103180 
+2025-03-04 11:53:01 -  Iter[004000], Epoch[000004], learning rate : 0.000399825, Train Loss: 0.520254731, Test MRAE: inf, Test RMSE: 0.063789010, Test PSNR: 16.733602524 
+2025-03-04 12:02:17 -  Iter[005000], Epoch[000005], learning rate : 0.000399727, Train Loss: 0.507723033, Test MRAE: inf, Test RMSE: 0.058545101, Test PSNR: 16.509511948 
+2025-03-04 12:11:31 -  Iter[006000], Epoch[000006], learning rate : 0.000399606, Train Loss: 0.500120044, Test MRAE: inf, Test RMSE: 0.068826556, Test PSNR: 16.730123520 
+2025-03-04 12:20:41 -  Iter[007000], Epoch[000007], learning rate : 0.000399464, Train Loss: 0.491458863, Test MRAE: inf, Test RMSE: 0.073633485, Test PSNR: 16.848087311 
+2025-03-04 12:29:52 -  Iter[008000], Epoch[000008], learning rate : 0.000399301, Train Loss: 0.485924006, Test MRAE: inf, Test RMSE: 0.071610942, Test PSNR: 16.707956314 
+2025-03-04 12:38:59 -  Iter[009000], Epoch[000009], learning rate : 0.000399115, Train Loss: 0.480591148, Test MRAE: inf, Test RMSE: 0.074922860, Test PSNR: 16.848758698 
+2025-03-04 12:48:07 -  Iter[010000], Epoch[000010], learning rate : 0.000398907, Train Loss: 0.475474656, Test MRAE: inf, Test RMSE: 0.063759558, Test PSNR: 16.660200119 
+2025-03-04 12:57:18 -  Iter[011000], Epoch[000011], learning rate : 0.000398678, Train Loss: 0.471302807, Test MRAE: inf, Test RMSE: 0.072495826, Test PSNR: 16.767131805 
