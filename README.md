@@ -1,4 +1,38 @@
-# This is a version with the improved hybrid loss function done by FYP Student Dennis 24/25 S2
+# MST++ with Improved Hybrid Loss
+
+This version of MST++ includes improvements to the training loss function, implemented as part of a Final Year Project (FYP) by **Dennis** (Academic Year 24/25, Semester 2) at NTU.
+
+## 🚀 Key Improvements
+
+- Implemented a **hybrid loss function** combining:
+  - **Mean Relative Absolute Error (MRAE)**
+  - **Structural Similarity Index (SSIM)**
+  - **Total Variation (TV) Loss**
+- Cleaned and structured the repository for better maintainability
+- Added `.gitignore` to exclude large files and local environments
+- Resolved merge conflicts and fixed corrupted Git histories during multi-branch integration
+
+---
+
+## ⚠️ Important Notes
+
+### 🔥 Large Files Not Tracked
+
+To keep the repository within GitHub limits:
+
+- `.zip`, `.pth`, `.so`, `.mat`, and environment folders (`myenv/`) are excluded via `.gitignore`
+- Please download **datasets** and **model checkpoints** separately via shared links (if provided)
+
+### 🛠️ If You Need to Push Large Files
+
+Use Git LFS:
+```bash
+sudo apt install git-lfs
+git lfs install
+git lfs track "*.pth"
+git add .gitattributes
+
+
 
 =======
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/mst-multi-stage-spectral-wise-transformer-for/spectral-reconstruction-on-arad-1k)](https://paperswithcode.com/sota/spectral-reconstruction-on-arad-1k?p=mst-multi-stage-spectral-wise-transformer-for)
