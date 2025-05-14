@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+# This is a version with the improved hybrid loss function done by FYP Student Dennis 24/25 S2
 
 =======
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/mst-multi-stage-spectral-wise-transformer-for/spectral-reconstruction-on-arad-1k)](https://paperswithcode.com/sota/spectral-reconstruction-on-arad-1k?p=mst-multi-stage-spectral-wise-transformer-for)
