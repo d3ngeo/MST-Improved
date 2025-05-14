@@ -24,6 +24,15 @@ To keep the repository within GitHub limits:
 - Please download **datasets** and **model checkpoints** separately via shared links (if provided)
 
 
+### 🧪 🔥 Shell Scripts (Training + Logging)
+
+- Most improvements are in the `train_code` folder
+- **Primary training entry point:**  
+  👉 `train_code/mst_training3.sh`  
+  This script incorporates the **latest hybrid loss function** logic, sets proper configs, and is recommended for all new training runs.
+- The script ensures **efficient reproducibility** and **proper experiment logging**.
+- 📊 **Use TensorBoard** together with this script to visualize training loss components:
+
 
 =======
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/mst-multi-stage-spectral-wise-transformer-for/spectral-reconstruction-on-arad-1k)](https://paperswithcode.com/sota/spectral-reconstruction-on-arad-1k?p=mst-multi-stage-spectral-wise-transformer-for)
