@@ -23,15 +23,6 @@ To keep the repository within GitHub limits:
 - `.zip`, `.pth`, `.so`, `.mat`, and environment folders (`myenv/`) are excluded via `.gitignore`
 - Please download **datasets** and **model checkpoints** separately via shared links (if provided)
 
-### 🛠️ If You Need to Push Large Files
-
-Use Git LFS:
-```bash
-sudo apt install git-lfs
-git lfs install
-git lfs track "*.pth"
-git add .gitattributes
-
 
 
 =======
