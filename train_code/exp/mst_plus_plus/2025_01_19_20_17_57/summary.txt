@@ -1,0 +1,48 @@
+### Summary of Training Results for MST-Plus-Plus Model
+
+1. **Training Progress**:
+   - **Training Loss** decreased consistently from **0.1666** at Epoch 115 to **0.1623** at Epoch 128, demonstrating steady learning.
+
+2. **Test Metrics**:
+   - **MRAE (Mean Relative Absolute Error)**:
+     - Initial: **0.2122** (Epoch 115).
+     - Best: **0.1939** (Epoch 124).
+     - Fluctuated significantly between **0.1939** and **0.2246** in later epochs.
+   - **RMSE (Root Mean Squared Error)**:
+     - Initial: **0.0308** (Epoch 115).
+     - Best: **0.0270** (Epoch 124).
+     - Showed a similar fluctuation pattern as MRAE.
+   - **PSNR (Peak Signal-to-Noise Ratio)**:
+     - Initial: **19.11** dB (Epoch 115).
+     - Best: **19.28** dB (Epoch 116).
+     - Stabilized around **19.16** dB by Epoch 128, with minor oscillations.
+
+3. **Learning Rate**:
+   - Gradual decay from **0.0002720** to **0.0002461**, consistent with learning rate scheduling.
+
+4. **Generalization**:
+   - Metrics oscillated throughout the epochs, indicating possible sensitivity to data or insufficient regularization.
+   - Significant performance variations suggest potential overfitting or suboptimal hyperparameters.
+
+5. **Best Epoch**:
+   - Epoch **124** achieved the best overall metrics:
+     - **MRAE**: 0.1939.
+     - **RMSE**: 0.0270.
+     - **PSNR**: 18.79 dB.
+
+6. **Challenges**:
+   - High variability in Test MRAE and RMSE suggests:
+     - Overfitting on training data in certain epochs.
+     - Possible issues with dataset consistency or lack of sufficient data augmentation.
+
+7. **Observations**:
+   - The model demonstrated steady improvements in training loss but faced challenges in achieving stable generalization.
+   - Peaks in PSNR were not sustained, reflecting inconsistent test performance.
+
+### Recommendations:
+- **Regularization**: Consider adding dropout or weight decay to improve generalization.
+- **Data Augmentation**: Enhance dataset diversity to reduce metric fluctuations.
+- **Hyperparameter Tuning**: Fine-tune learning rate schedules, batch size, or optimizer settings to stabilize test performance.
+- **Error Analysis**: Investigate cases with poor MRAE or RMSE to identify specific patterns or issues.
+
+By addressing these aspects, the MST-plus-plus model could achieve more robust and consistent performance.

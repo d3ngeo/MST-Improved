@@ -1,0 +1,28 @@
+*.zip
+*.pth
+*.so
+<<<<<<< HEAD
+myenv/
+=======
+*.ckpt
+*.tar
+*.tar.gz
+*.whl
+*.bin
+*.h5
+*.onnx
+*.mat
+myenv/
+__pycache__/
+.DS_Store
+.ipynb_checkpoints/
+.idea/
+.vscode/
+
+>>>>>>> new-main
+*.zip
+*.pth
+*.so
+*.mat
+__pycache__/
+myenv/

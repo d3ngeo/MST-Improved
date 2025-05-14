@@ -1,0 +1,79 @@
+bash: line 1: log_message: command not found
+bash: line 2: 2064611 Killed                  python3 train.py --method mst_plus_plus --batch_size 20 --end_epoch 300 --init_lr 4e-4 --outf ./exp/mst_plus_plus/ --data_root ../dataset/ --patch_size 128 --stride 8 --gpu_id 0 >> training_log_20250118_101714.log 2>&1
+bash: line 3: log_message: command not found
+bash: line 5: log_message: command not found
+bash: line 1: log_message: command not found
+bash: line 1: log_message: command not found
+bash: line 7: log_message: command not found
+bash: line 9: log_message: command not found
+bash: line 3: log_message: command not found
+bash: line 5: log_message: command not found
+bash: line 3: log_message: command not found
+bash: line 5: log_message: command not found
+bash: line 6: 2421662 Killed                  python3 train.py --method mst --batch_size 20 --end_epoch 300 --init_lr 4e-4 --outf ./exp/mst/ --data_root ../dataset/ --patch_size 128 --stride 8 --gpu_id 0 >> training_log_20250118_200747.log 2>&1
+bash: line 6: 2421651 Killed                  python3 train.py --method mst --batch_size 20 --end_epoch 300 --init_lr 4e-4 --outf ./exp/mst/ --data_root ../dataset/ --patch_size 128 --stride 8 --gpu_id 0 >> training_log_20250118_200639.log 2>&1
+bash: line 7: log_message: command not found
+bash: line 7: log_message: command not found
+bash: line 9: log_message: command not found
+bash: line 9: log_message: command not found
+bash: line 10: 2421645 Killed                  python3 train.py --method mirnet --batch_size 20 --end_epoch 300 --init_lr 4e-4 --outf ./exp/mirnet/ --data_root ../dataset/ --patch_size 128 --stride 8 --gpu_id 0 >> training_log_20250118_101714.log 2>&1
+bash: line 11: log_message: command not found
+bash: line 13: log_message: command not found
+bash: line 10: 2438179 Killed                  python3 train.py --method mirnet --batch_size 20 --end_epoch 300 --init_lr 4e-4 --outf ./exp/mirnet/ --data_root ../dataset/ --patch_size 128 --stride 8 --gpu_id 0 >> training_log_20250118_200747.log 2>&1
+bash: line 11: log_message: command not found
+bash: line 13: log_message: command not found
+bash: line 10: 2438180 Killed                  python3 train.py --method mirnet --batch_size 20 --end_epoch 300 --init_lr 4e-4 --outf ./exp/mirnet/ --data_root ../dataset/ --patch_size 128 --stride 8 --gpu_id 0 >> training_log_20250118_200639.log 2>&1
+bash: line 11: log_message: command not found
+bash: line 13: log_message: command not found
+bash: line 14: 2438334 Killed                  python3 train.py --method hinet --batch_size 20 --end_epoch 300 --init_lr 2e-4 --outf ./exp/hinet/ --data_root ../dataset/ --patch_size 128 --stride 8 --gpu_id 0 >> training_log_20250118_101714.log 2>&1
+bash: line 15: log_message: command not found
+bash: line 17: log_message: command not found
+bash: line 18: 2440825 Killed                  python3 train.py --method mprnet --batch_size 20 --end_epoch 300 --init_lr 2e-4 --outf ./exp/mprnet/ --data_root ../dataset/ --patch_size 128 --stride 8 --gpu_id 0 >> training_log_20250118_101714.log 2>&1
+bash: line 19: log_message: command not found
+bash: line 21: log_message: command not found
+bash: line 14: 2440823 Killed                  python3 train.py --method hinet --batch_size 20 --end_epoch 300 --init_lr 2e-4 --outf ./exp/hinet/ --data_root ../dataset/ --patch_size 128 --stride 8 --gpu_id 0 >> training_log_20250118_200639.log 2>&1
+bash: line 15: log_message: command not found
+bash: line 17: log_message: command not found
+bash: line 14: 2440819 Killed                  python3 train.py --method hinet --batch_size 20 --end_epoch 300 --init_lr 2e-4 --outf ./exp/hinet/ --data_root ../dataset/ --patch_size 128 --stride 8 --gpu_id 0 >> training_log_20250118_200747.log 2>&1
+bash: line 15: log_message: command not found
+bash: line 17: log_message: command not found
+bash: line 19: log_message: command not found
+bash: line 21: log_message: command not found
+bash: line 23: log_message: command not found
+bash: line 25: log_message: command not found
+bash: line 19: log_message: command not found
+bash: line 21: log_message: command not found
+bash: line 23: log_message: command not found
+bash: line 25: log_message: command not found
+bash: line 23: log_message: command not found
+bash: line 25: log_message: command not found
+bash: line 27: log_message: command not found
+bash: line 29: log_message: command not found
+bash: line 27: log_message: command not found
+bash: line 29: log_message: command not found
+bash: line 31: log_message: command not found
+bash: line 33: log_message: command not found
+bash: line 35: log_message: command not found
+bash: line 37: log_message: command not found
+bash: line 31: log_message: command not found
+bash: line 33: log_message: command not found
+bash: line 39: log_message: command not found
+bash: line 41: log_message: command not found
+bash: line 35: log_message: command not found
+bash: line 37: log_message: command not found
+bash: line 39: log_message: command not found
+bash: line 41: log_message: command not found
+bash: line 43: log_message: command not found
+bash: line 43: log_message: command not found
+bash: line 26: 2457525 Killed                  python3 train.py --method edsr --batch_size 20 --end_epoch 300 --init_lr 1e-4 --outf ./exp/edsr/ --data_root ../dataset/ --patch_size 128 --stride 8 --gpu_id 0 >> training_log_20250118_200747.log 2>&1
+bash: line 27: log_message: command not found
+bash: line 29: log_message: command not found
+bash: line 30: 2522689 Killed                  python3 train.py --method hdnet --batch_size 20 --end_epoch 300 --init_lr 4e-4 --outf ./exp/hdnet/ --data_root ../dataset/ --patch_size 128 --stride 8 --gpu_id 0 >> training_log_20250118_200747.log 2>&1
+bash: line 31: log_message: command not found
+bash: line 33: log_message: command not found
+bash: line 34: 2781243 Killed                  python3 train.py --method hrnet --batch_size 20 --end_epoch 300 --init_lr 1e-4 --outf ./exp/hrnet/ --data_root ../dataset/ --patch_size 128 --stride 8 --gpu_id 0 >> training_log_20250118_200747.log 2>&1
+bash: line 35: log_message: command not found
+bash: line 37: log_message: command not found
+bash: line 39: log_message: command not found
+bash: line 41: log_message: command not found
+bash: line 43: log_message: command not found
